@@ -1,0 +1,7 @@
+'''''''''
+pyinstaller --onefile --windowed --clean --noconsol run_game.spec
+'''''''''
+
+a.datas += [ ('1.png', '.\\icon\\1.png', 'DATA')]'
+a.datas += [ ('2.png', '.\\icon\\2.png', 'DATA')]'
+a.datas += [ ('3x3_game.ui', '.\\3x3_game.ui', 'DATA')]'
